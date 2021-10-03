@@ -1,3 +1,86 @@
 body{
     background-color: #f5f5f5;
+    
 }
+/* .Calc{
+        position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;display: flex;
+overflow-y: scroll;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+} */
+.Calculator{
+    background-color: #22252d;
+    border-radius: 26px;
+    /* padding: 20px; */
+    max-width: 450px;
+    width: 100%;
+    margin:0 auto;
+    margin-top: 100px;
+    padding-top:25px
+}
+.Operations{
+display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    flex-direction: column;
+    grid-gap: 10px;
+    gap: 10px;
+    background: #2a2d37;
+    padding: 25px;
+    border-radius: 36px 36px 26px 26px;
+    
+
+}
+.dot{
+    flex: 45.5%;
+}
+.dot button{
+    max-width: none;
+}
+.Operations .parent{
+display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+
+    gap: 10px;
+}
+.equals{
+    z-index: 1;
+}
+.equals button{
+    padding:107px 0;
+display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.last__pa{
+    margin-top: -110px;
+}
+
+
+.padd__box{
+    padding: 20px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .Calculator{
+        max-width: 270px;
+    }
+    .equals button{
+        padding:60px 0;        
+    }
+    
+    .last__pa{
+        margin-top: -70px;
+    }
+    
+}
+
+
