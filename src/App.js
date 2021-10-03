@@ -2,7 +2,7 @@ import Button from './components/Button'
 import Input from './components/Input'
 import React, { useState, useEffect } from 'react';
 import Darkmode from './components/Darkmode'
-
+import Footer from './components/Footer';
 import './App.css'
 function App() {
 
@@ -74,102 +74,67 @@ function App() {
   useEffect(() => {
     document.getElementById("display").focus();
   });
-  // function handlefocus(e) {
-  //   e.focus();
-  // }
+
   return (
-    // <div className="Calc">
-    //   <div className="Calculator">
-    //     <Input value={val} /><br />
-    //     <div className="Operations">
-    //       <div className="topOperators">
-    //         <Button onClick={BackCR}>Back</Button>
-    //         <Button onClick={Clear}>Clear</Button>
-    //         <Button className="buttons__si" onClick={Operation}>/</Button>
-    //         <Button className="buttons__si" onClick={Operation}>*</Button>
-    //       </div>
-    //       <div className="groupNum">
-    //         <div className="numberBtns">
-    //           <Button onClick={ButtonClk}>1</Button>
-    //           <Button onClick={ButtonClk}>2</Button>
-    //           <Button onClick={ButtonClk}>3</Button>
-    //           <Button onClick={ButtonClk}>4</Button>
-    //           <Button onClick={ButtonClk}>5</Button>
-    //           <Button onClick={ButtonClk}>6</Button>
-    //           <Button onClick={ButtonClk}>7</Button>
-    //           <Button onClick={ButtonClk}>8</Button>
-    //           <Button onClick={ButtonClk}>9</Button>
-    //         </div>
-    //         <div className="operators">
-    //           <Button className="buttons__si" onClick={Operation}>-</Button>
-    //           <Button className="buttons__si" onClick={Operation}>+</Button>
-    //           <Button onClick={Enter} cls="equals">=</Button>
-    //         </div>
-    //       </div>
-    //       <div className="bottomOP">
-    //         <Button onClick={ButtonClk} cls="zero">0</Button>
-    //         <Button onClick={ButtonClk}>.</Button>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
 
 
 
 
+    <>
 
 
+      <div className="minHe">
+        < div className="Calculator" >
+          <Darkmode />
+          <div className="padd__box"><Input value={val} /></div>
+          <div className="Operations">
 
-    // <div className="Calc">
-    < div className="Calculator" >
-      <Darkmode />
-      <div className="padd__box"><Input value={val} /></div>
-      <div className="Operations">
-
-        <div className="parent">
-          <Button onClick={BackCR} cls="cls">←</Button>
-          <Button onClick={Clear} cls="cls">C</Button>
-          <Button cls="buttons__si" onClick={Operation}>/</Button>
-          <Button cls="buttons__si" onClick={Operation}>*</Button>
-        </div>
-
-
-        <div className="parent">
-          <Button onClick={ButtonClk}>7</Button>
-          <Button onClick={ButtonClk}>8</Button>
-          <Button onClick={ButtonClk}>9</Button>
-          <Button cls="buttons__si" onClick={Operation}>-</Button>
-
-        </div >
+            <div className="parent">
+              <Button onClick={BackCR} cls="cls">←</Button>
+              <Button onClick={Clear} cls="cls">C</Button>
+              <Button cls="buttons__si" onClick={Operation}>/</Button>
+              <Button cls="buttons__si" onClick={Operation}>*</Button>
+            </div>
 
 
-        <div className="parent">
-          <Button onClick={ButtonClk}>4</Button>
-          <Button onClick={ButtonClk}>5</Button>
-          <Button onClick={ButtonClk}>6</Button>
-          <Button cls="buttons__si" onClick={Operation}>+</Button>
-        </div >
+            <div className="parent">
+              <Button onClick={ButtonClk}>7</Button>
+              <Button onClick={ButtonClk}>8</Button>
+              <Button onClick={ButtonClk}>9</Button>
+              <Button cls="buttons__si" onClick={Operation}>-</Button>
 
-        <div className="parent">
-          <Button onClick={ButtonClk}>1</Button>
-          <Button onClick={ButtonClk}>2</Button>
-          <Button onClick={ButtonClk}>3</Button>
-          <Button onClick={Enter} cls="buttons__si equals">=</Button>
-        </div>
-        <div className="parent last__pa">
-          <Button onClick={ButtonClk} cls="dot" >0</Button>
-          <Button onClick={ButtonClk}>.</Button>
-          <Button onClick={Enter}>=</Button>
+            </div >
 
-        </div>
-        {/* <Button onClick={Enter}>=</Button> */}
-        {/* <Button>X</Button>
+
+            <div className="parent">
+              <Button onClick={ButtonClk}>4</Button>
+              <Button onClick={ButtonClk}>5</Button>
+              <Button onClick={ButtonClk}>6</Button>
+              <Button cls="buttons__si" onClick={Operation}>+</Button>
+            </div >
+
+            <div className="parent">
+              <Button onClick={ButtonClk}>1</Button>
+              <Button onClick={ButtonClk}>2</Button>
+              <Button onClick={ButtonClk}>3</Button>
+              <Button onClick={Enter} cls="buttons__si equals">=</Button>
+            </div>
+            <div className="parent last__pa">
+              <Button onClick={ButtonClk} cls="dot" >0</Button>
+              <Button onClick={ButtonClk}>.</Button>
+              <Button cls='noneBtn'>=</Button>
+
+            </div>
+            {/* <Button onClick={Enter}>=</Button> */}
+            {/* <Button>X</Button>
           <Button>X</Button> */}
-      </div>
-    </div >
-    // </div>
+          </div>
 
+        </div >
 
+      </div >
+      <Footer />
+    </>
 
 
   );

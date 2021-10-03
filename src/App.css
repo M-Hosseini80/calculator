@@ -1,6 +1,11 @@
 body{
-    background-color: #f5f5f5;
-    
+    background-color: #171717;
+    transition: 0.3s;
+    margin: 0;
+
+}
+.minHe{
+    min-height: 92vh;
 }
 /* .Calc{
         position: fixed;
@@ -22,16 +27,18 @@ overflow-y: scroll;
     width: 100%;
     margin:0 auto;
     margin-top: 100px;
-    padding-top:25px
+    padding-top:25px;transition: 0.3s;
+    margin-bottom: 25px;
 }
 .Operations{
 display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
     flex-direction: column;
     grid-gap: 10px;
     gap: 10px;
-    background: #2a2d37;
-    padding: 25px;
-    border-radius: 36px 36px 26px 26px;
+    background: #363d55;
+    padding: 35px 25px;
+    border-radius: 50px 50px 26px 26px;transition: 0.3s;
+
     
 
 }
@@ -50,7 +57,7 @@ display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
     z-index: 1;
 }
 .equals button{
-    padding:107px 0;
+    padding:98px 0;
 display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
 
     justify-content: center;
@@ -59,7 +66,7 @@ display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
 }
 
 .last__pa{
-    margin-top: -110px;
+    margin-top: -102px;
 }
 
 
@@ -68,17 +75,22 @@ display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
 }
 
 
-
+.noneBtn{
+    visibility: hidden;
+}
 @media only screen and (max-width: 600px) {
     .Calculator{
-        max-width: 270px;
+        max-width: 300px;
     }
     .equals button{
-        padding:60px 0;        
+        padding:55px 0;        
     }
     
     .last__pa{
-        margin-top: -70px;
+        margin-top: -60px;
+    }
+    .Calculator{
+        margin-top: 60px;
     }
     
 }

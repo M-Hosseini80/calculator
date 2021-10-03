@@ -1,0 +1,17 @@
+footer{
+    color: #ffffff80;
+    text-align: center;
+    background-color: #353d51;
+    padding: 10px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+}
+footer p{
+    margin: 8px;
+}
+footer a{
+    color: #ffffff80;
+}
