@@ -7,6 +7,8 @@ https://www.projects.mohamadhossein.ir/calculator/
 **another projects:**
 https://www.projects.mohamadhossein.ir/
 
+</> by: https://mohamadhossein.ir/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
