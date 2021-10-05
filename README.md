@@ -12,13 +12,14 @@ https://www.projects.mohamadhossein.ir/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-![light mode - darkmode - simple Calculator](https://user-images.githubusercontent.com/40790864/135969886-51301ca3-6a68-421d-b81a-82d691d6da04.JPG)
-
-
-fast run:
+**fast run:**
+----
 1. extract "build.zip" in your host directory
 2. have fun!
+
+
+## Available Scripts
+![light mode - darkmode - simple Calculator](https://user-images.githubusercontent.com/40790864/135969886-51301ca3-6a68-421d-b81a-82d691d6da04.JPG)
 
 
 In the project directory, you can run:
