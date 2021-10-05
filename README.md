@@ -1,4 +1,4 @@
-# _Calculator_ - A **simple calculator** with the basic functions
+# _Calculator_ - A **simple react js calculator** with the basic functions
 
 <p align="center"><img src="https://user-images.githubusercontent.com/40790864/135969882-bfa90dc3-9d91-4a59-b6aa-2c91f6a84eb1.JPG" alt="simple react js Calculator"/></p>
 
