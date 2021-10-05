@@ -1,5 +1,6 @@
-# Getting Started with Create React App
+# _Calculator_ - A **simple calculator** with the basic functions
 
+![simple Calculator](https://user-images.githubusercontent.com/40790864/135969882-bfa90dc3-9d91-4a59-b6aa-2c91f6a84eb1.JPG)
 
 **Demo:**
 https://www.projects.mohamadhossein.ir/calculator/
@@ -12,6 +13,7 @@ https://www.projects.mohamadhossein.ir/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+![light mode - darkmode - simple Calculator](https://user-images.githubusercontent.com/40790864/135969886-51301ca3-6a68-421d-b81a-82d691d6da04.JPG)
 
 In the project directory, you can run:
 
