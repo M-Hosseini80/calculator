@@ -1,5 +1,23 @@
 # _Calculator_ - A **simple react js calculator** with the basic functions
 
+
+
+# Terms of Use
+This project is only a beta and personal version
+
+# قوانین و شرایط استفاده
+این پروژه (پروژه ماشین حساب یا Calculator ، فقط یک پروژه شخصی و بتا و برای استفاده شخصی می باشد و شما می توانید آن را گسترش یا بهبود دهید.
+
+هرگونه پیشنهاد در جهت بهبود پروژه ها از جانب شما را پذیرا هستیم :)
+
+پروژه های موجود در لینک زیر:
+https://www.projects.mohamadhossein.ir/
+
+صرفا برای به نمایش گذاشتن مهارت و نحوه کد نویسی طراح قرار داده شده اند.
+
+
+
+
 <p align="center"><img src="https://user-images.githubusercontent.com/40790864/135969882-bfa90dc3-9d91-4a59-b6aa-2c91f6a84eb1.JPG" alt="simple react js Calculator"/></p>
 
 **Demo:**
