@@ -1,12 +1,7 @@
 # _Calculator_ - A **simple react js calculator** with the basic functions
 
 
-##### Table of Contents  
-[Headers](#headers)  
-[Emphasis](#emphasis)  
-...snip...    
-<a name="headers"/>
-## Headers
+
 
 
 
